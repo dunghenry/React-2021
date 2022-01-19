@@ -1,0 +1,19 @@
+button {
+  cursor: pointer;
+}
+input[type="submit"] {
+  cursor: pointer;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    width: 100px;
+}
+.active-link{
+    color: red;font-weight: bold;
+}
+a{
+    text-decoration:none !important;
+}

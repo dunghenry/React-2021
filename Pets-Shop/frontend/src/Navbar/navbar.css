@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.navbar > *{
+    margin-left: 2rem;
+    color: #9c6644;
+    text-decoration: none;
+    transition: 200ms ease-in-out;
+}
+.navbar > *:hover{
+    color: #e76f51;
+}
+.active{
+    border-bottom: 3px solid red;
+}
+.cart-number{
+    position: relative;
+    top: -13px;
+    right: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background: rgba(255, 0, 0, 0.815);
+    padding: 4px 5px 3px 7px;
+    text-align: center;
+    border-radius: 50%;
+    z-index:-1;
+
+}
